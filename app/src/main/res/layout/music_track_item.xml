@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:stretchColumns="0,1,2,3">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Track:"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/trackId"
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="15dp"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Price:"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/priceId"
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="15dp"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Artist:"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/artistId"
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="15dp"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date:"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/dateId"
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="15dp"
+                        android:textSize="12sp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
